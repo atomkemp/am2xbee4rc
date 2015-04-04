@@ -58,7 +58,7 @@ void loop() {
 
 void checkWatchdog() {
   if (watchdog <= millis()) {
-    watchdog = millis() + watchdogRate; //reset watchdog
+    watchdog = millis() + watchdogRate; //reset watchdog. not using the real watchdog at this point. just figuratively.
     sendAck();
     servo1Pos = 90;
     servo2Pos = 90;
