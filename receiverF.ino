@@ -1,6 +1,5 @@
 /**********
-P is for pistol
-J is for joystick
+F is for Fio
 Written by Adam Kemp (atomkemp), 2015
 **********/
 
